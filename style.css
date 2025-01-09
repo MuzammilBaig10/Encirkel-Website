@@ -939,3 +939,55 @@ form button:hover {
       margin-right: 20px; /* Optional: Add space between the two headings */
   }
 }
+
+@media (max-width: 1024px) {
+    .car-d {
+        display: flex;
+        flex-direction: column; /* Stack the cards vertically */
+        align-items: center; /* Center-align the cards */
+        gap: 20px; /* Add space between cards */
+        padding: 20px; /* Add padding around the section */
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column; /* Stack elements inside the card vertically */
+        align-items: center; /* Center-align the text inside each card */
+        width: 90%; /* Adjust the card width to fit within the screen */
+        max-width: 350px; /* Set a maximum width for each card */
+        padding: 20px;
+        border: 1px solid #ddd; /* Optional: Add border to cards */
+        border-radius: 8px; /* Optional: Round the corners */
+        background-color: #fff; /* Background color for the card */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a light shadow to cards */
+    }
+
+    .one, .two, .three {
+        font-size: 40px; /* Adjust number size inside the circle */
+        font-weight: bold;
+        color: white; /* Customize the color */
+        background-color: #169E00; /* Background color for the number circle */
+        border-radius: 50%; /* Make the number a circle */
+        width: 60px; /* Size of the circle */
+        height: 60px; /* Size of the circle */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px; /* Space between number and title */
+    }
+
+    .cardtext1 {
+        font-size: 18px; /* Adjust title font size */
+        font-weight: bold;
+        color: #333; /* Darker text color for title */
+        margin-bottom: 10px; /* Space between title and description */
+        text-align: center; /* Center-align the title */
+    }
+
+    .cardtext-1 {
+        font-size: 16px; /* Adjust description font size */
+        color: #555; /* Lighter color for the description */
+        line-height: 1.6; /* Adjust line height */
+        text-align: center; /* Center-align the text */
+    }
+}
