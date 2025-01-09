@@ -1044,3 +1044,119 @@ form button:hover {
       text-align: center; /* Center-align the text */
   }
 }
+
+@media (max-width: 1024px) {
+  .section-4 {
+      text-align: center; /* Center-align the text for better layout */
+      padding: 20px; /* Add padding around the section */
+  }
+
+  .section-5 {
+      display: flex;
+      flex-direction: column; /* Stack the sub-card sections vertically */
+      gap: 20px; /* Space between the stacked sections */
+      padding: 20px; /* Add padding to the section */
+  }
+
+  .sub-card-1,
+  .sub-card-2 {
+      display: flex;
+      flex-direction: column; /* Stack the cards vertically inside each sub-section */
+      gap: 20px; /* Add space between the cards */
+      align-items: center; /* Center-align the cards within the section */
+  }
+
+  .content-1, 
+  .content-2, 
+  .content-3, 
+  .content-4 {
+      width: 100%; /* Make each content block take up full width */
+      max-width: 480px; /* Limit the max width for readability */
+      padding:  /* Add padding around the content for better spacing */
+      text-align: center; /* Center-align text within each card */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a cleaner look */
+      border-radius: 8px; /* Rounded corners */
+      background-color: #fff; /* Ensure a white background for the cards */
+  }
+
+  .icon-1 img {
+      width: 80px; /* Scale down the icons for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 15px; /* Space below the icon */
+  }
+
+  .text-- {
+      font-size: 18px; /* Adjust the heading font size */
+      margin-bottom: 10px; /* Space below the heading */
+      color: #333; /* Ensure readable text color */
+  }
+
+  .text- {
+      font-size: 14px; /* Adjust paragraph font size */
+      color: #555; /* Subtle color for the description */
+      line-height: 1.5; /* Improve line spacing for readability */
+  }
+}
+
+@media (max-width: 640px) {
+  .section-4 {
+      text-align: center; /* Center-align the text for the heading section */
+      padding: 20px; /* Add padding for spacing */
+  }
+
+  .text-1 h1 {
+      font-size: 24px; /* Adjust heading font size for smaller screens */
+  }
+
+  .text-2 h5 {
+      font-size: 16px; /* Adjust subheading font size */
+      color: #555; /* Subtle color for readability */
+  }
+
+  .section-5 {
+      display: flex;
+      flex-direction: column; /* Stack the cards vertically */
+      gap: 20px; /* Add spacing between sections */
+      padding: 10px; /* Add padding for proper alignment */
+  }
+
+  .sub-card-1, 
+  .sub-card-2 {
+      display: flex;
+      flex-direction: column; /* Stack the cards vertically in each sub-card */
+      gap: 20px; /* Space between cards */
+      align-items: center; /* Center-align the cards */
+  }
+
+  .content-1, 
+  .content-2, 
+  .content-3, 
+  .content-4 {
+      width: 100%; /* Make cards take full width */
+      max-width: 320px; /* Limit the max width for readability */
+      text-align: center; /* Center-align the content */
+      padding: 15px; /* Add padding inside each card */
+      background-color: #fff; /* Ensure white background for the cards */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card distinction */
+      border-radius: 8px; /* Rounded corners for a clean look */
+  }
+
+  .icon-1 img {
+      width: 60px; /* Scale down the icons for smaller screens */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 10px; /* Space below the icon */
+  }
+
+  .text-- {
+      font-size: 18px; /* Adjust heading font size inside the card */
+      margin-bottom: 8px; /* Space below the heading */
+      color: #333; /* Ensure readable text color */
+  }
+
+  .text- {
+      font-size: 14px; /* Adjust paragraph font size */
+      color: #666; /* Subtle color for description text */
+      line-height: 1.4; /* Adjust line spacing for readability */
+  }
+}
+
