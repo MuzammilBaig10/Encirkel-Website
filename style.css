@@ -1072,8 +1072,9 @@ form button:hover {
   .content-4 {
       width: 100%; /* Make each content block take up full width */
       max-width: 480px; /* Limit the max width for readability */
-      text-align: center; /* Center-align text within each card */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a cleaner look */
+      padding: 10px;
+      text-align: left; /* Center-align text within each card */
+      box-shadow: 0 6px 11px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a cleaner look */
       border-radius: 8px; /* Rounded corners */
       background-color: white; /* Ensure a white background for the cards */
   }
@@ -1133,7 +1134,7 @@ form button:hover {
   .content-4 {
       width: 100%; /* Make cards take full width */
       max-width: 320px; /* Limit the max width for readability */
-      text-align: center; /* Center-align the content */
+      text-align: left; /* Center-align the content */
       padding: 15px; /* Add padding inside each card */
       background-color: #fff; /* Ensure white background for the cards */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for card distinction */
@@ -1158,4 +1159,3 @@ form button:hover {
       line-height: 1.4; /* Adjust line spacing for readability */
   }
 }
-
