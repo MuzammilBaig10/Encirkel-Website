@@ -1072,11 +1072,10 @@ form button:hover {
   .content-4 {
       width: 100%; /* Make each content block take up full width */
       max-width: 480px; /* Limit the max width for readability */
-      padding:  /* Add padding around the content for better spacing */
       text-align: center; /* Center-align text within each card */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a cleaner look */
       border-radius: 8px; /* Rounded corners */
-      background-color: #fff; /* Ensure a white background for the cards */
+      background-color: white; /* Ensure a white background for the cards */
   }
 
   .icon-1 img {
