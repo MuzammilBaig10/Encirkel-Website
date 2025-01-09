@@ -778,3 +778,98 @@ form button:hover {
 
 /* CLOSED */
 
+@media (max-width: 1024px) {
+  .hero-section {
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center-align items */
+      padding: 30px 20px; /* Add padding for spacing */
+      gap: 20px; /* Add spacing between items */
+      text-align: center; /* Center-align text */
+  }
+
+  .hero-item1 h1 {
+      font-size: 32px; /* Adjust font size for heading */
+      font-family: inherit; /* Keep the font consistent */
+      line-height: 1.3; /* Adjust line height */
+      margin: 0; /* Remove default margin */
+  }
+
+  .hero-item2 h4 {
+      font-size: 22px; /* Adjust font size for subheading */
+      font-family: inherit; /* Keep the font consistent */
+      line-height: 1.4;
+      margin: 0; /* Remove default margin */
+  }
+
+  .hero-item3 p {
+      font-size: 18px; /* Adjust font size for paragraph text */
+      font-family: inherit; /* Keep font consistent */
+      line-height: 1.6;
+      margin: 0; /* Remove default margin */
+  }
+
+  .customCTA1 a {
+      background-color: white; /* Button background color */
+      color: #169E00; /* Button text color */
+      padding: 1px 30px; /* Add padding for a touch-friendly button */
+      text-decoration: none; /* Remove underline */
+      border-radius: 5px; /* Add rounded corners */
+      font-size: 18px; /* Adjust font size */
+      font-family: inherit; /* Keep font consistent */
+      display: inline-block; /* Ensure the button stays in place */
+  }
+
+  .customCTA1 a:hover {
+      opacity: 0.9; /* Hover effect for the button */
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-section {
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center-align all items */
+      padding: 20px; /* Add padding around the content */
+      gap: 15px; /* Add spacing between items */
+      text-align: center; /* Center-align text */
+      background-color: #169E00; /* Fill the background with a light color */
+      width: 100%; /* Ensure it spans full screen width */
+  }
+
+  .hero-item1 h1 {
+      font-size: 28px; /* Maintain a prominent heading size */
+      font-family: inherit; /* Keep the font consistent */
+      line-height: 1.3; /* Adjust line height */
+      margin: 0; /* Remove default margin */
+  }
+
+  .hero-item2 h4 {
+      font-size: 20px; /* Slightly smaller subheading */
+      font-family: inherit; /* Keep font consistent */
+      line-height: 1.4;
+      margin: 0; /* Remove default margin */
+  }
+
+  .hero-item3 p {
+      font-size: 16px; /* Adjust paragraph size for readability */
+      font-family: inherit; /* Keep font consistent */
+      line-height: 1.5;
+      margin: 0; /* Remove default margin */
+  }
+
+  .customCTA1 a {
+      background-color: white; /* Fill background with primary color */
+      color: #169E00; /* Ensure text contrast */
+      padding: 1px 25px; /* Add padding for touch-friendly design */
+      text-decoration: none; /* Remove underline */
+      border-radius: 5px; /* Add rounded corners */
+      font-size: 16px; /* Maintain font size */
+      font-family: inherit; /* Keep font consistent */
+      display: inline-block; /* Ensure button remains in its place */
+  }
+
+  .customCTA1 a:hover {
+      opacity: 0.9; /* Add a hover effect */
+  }
+}
