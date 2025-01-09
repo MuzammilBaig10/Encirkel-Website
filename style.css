@@ -660,3 +660,121 @@ form button {
 form button:hover {
   background-color: #002080;
 }
+
+@media (max-width: 640px) {
+  .header-area {
+      flex-direction: column; 
+      align-items: center; 
+      gap: 10px; 
+  }
+
+  .logo-item {
+      margin-bottom: 10px; 
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav-item {
+      flex-direction: column; 
+      gap: 10px; 
+  }
+
+  .menu-item a {
+      font-size: 18px; 
+  }
+
+  .customCTA a {
+      width: 100%; 
+      text-align: center;
+      padding: 12px 0; 
+  }
+}
+
+/* FOR THE HEADER ONLY  */
+
+@media (max-width: 1024px) {
+  .header-area {
+      flex-direction: row; 
+      justify-content: left; 
+      gap: 60px; 
+      flex-wrap: wrap; 
+  }
+
+  .logo-item {
+      flex: 0 1 auto; 
+      max-width: 30%; 
+      text-align: left;
+  }
+
+  .logo-item img {
+      max-width: 100%; 
+      height: auto;
+  }
+
+  .nav-item {
+      display: flex;
+      flex: 0 1 auto; 
+      justify-content: space-around;
+      gap: 10px; 
+  }
+
+  .menu-item a {
+      font-size: 14px; 
+      text-align: center;
+  }
+
+  .customCTA a {
+      padding: 8px 15px;
+      font-size: 14px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .header-area {
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      padding: 15px 30px;
+  }
+
+  .logo-item {
+      flex: 0 1 auto;
+      max-width: 20%;
+  }
+
+  .logo-item img {
+      max-width: 100%; 
+      height: auto;
+  }
+
+  .nav-item {
+      display: flex;
+      justify-content: flex-end; 
+      align-items: center;
+      gap: 20px; 
+  }
+
+  .menu-item a {
+      font-size: 16px; 
+      color: #169E00;
+      text-decoration: none;
+  }
+
+  .customCTA a {
+      background-color: #169E00; 
+      color: white;
+      padding: 10px 20px; 
+      border-radius: 5px; 
+      font-size: 16px; 
+      text-decoration: none;
+  }
+
+
+  .menu-item a:hover,
+  .customCTA a:hover {
+      opacity: 0.8; 
+  }
+}
+
+/* CLOSED */
+
