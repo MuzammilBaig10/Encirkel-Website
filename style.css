@@ -834,7 +834,7 @@ form button:hover {
       gap: 15px; /* Add spacing between items */
       text-align: center; /* Center-align text */
       background-color: #169E00; /* Fill the background with a light color */
-      width: 100%; /* Ensure it spans full screen width */
+      width: auto; /* Ensure it spans full screen width */
   }
 
   .hero-item1 h1 {
